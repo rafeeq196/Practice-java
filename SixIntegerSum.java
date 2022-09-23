@@ -1,6 +1,6 @@
 package Exercise;
 
-public class sum1 {
+public class SixIntegerSum {
 
 	public static void main(String[] args) {
 		int number1 = 11;
