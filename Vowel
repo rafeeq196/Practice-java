@@ -1,0 +1,22 @@
+package questions27;
+
+import java.util.Scanner;
+
+public class Vowel {
+
+	public static void main(String[] args) {
+		char ch;
+		Scanner inp = new Scanner(System.in);
+		System.out.println("Enter any character to find Vowel");
+		ch = inp.next().charAt(0);
+		
+		 if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )  {
+			System.out.println("Entered number is Vowel");
+		}
+		else {
+			System.out.println("Entered number is not a Vowel");
+		}
+
+	}
+
+}
