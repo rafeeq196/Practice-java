@@ -1,0 +1,32 @@
+package questions27;
+
+import java.util.Scanner;
+
+public class FloydsTriangle {
+
+	public static void main(String[] args) {
+		int rows,number=1,counter,j;
+		// To get user's input
+		Scanner obj =new Scanner(System.in);
+		System.out.println("Enter the number of row's for FloydsTriangle ");
+		// copying the user input into the variable named rows
+		rows = obj.nextInt();
+		System.out.println("FloydsTriangle ");
+		System.out.println("************************");
+		for (counter=1; counter<=rows;counter++) {
+			for(j=1; j<=counter;j++) {
+				System.out.print(number+" ");
+				// incrementing the number values
+				number++;
+			}
+			System.out.println();// for new line
+		}
+		
+		
+		
+		
+		
+
+	}
+
+}
