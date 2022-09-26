@@ -1,0 +1,15 @@
+package questions27;
+
+import java.util.Scanner;
+
+public class FindAreaOfSquare {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the side of Square");
+		double side = sc.nextDouble();
+		double area = side*side;
+		System.out.println("The area of a Square is "+area);
+	}
+
+}
