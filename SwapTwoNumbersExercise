@@ -1,0 +1,24 @@
+package questions27;
+
+public class SwapTwoNumbersExercise {
+
+	public static void main(String[] args) {
+		float first = 2.50f;
+		float second = 4.5f;
+		System.out.println("Before Swipe ");
+		System.out.println("The first number is "+first);
+		System.out.println("The second number is "+second);
+		// the value of first is assigned to temporary
+		float temporary = first; 
+		// the value of second is assigned to first
+		first =second;
+		// the value of temporary(which contains initial value of first) is assigned to second
+		second = temporary;
+		
+		System.out.println("After Swipe ");
+		System.out.println("The first number is "+first);
+		System.out.println("The second number is "+second);
+	
+	}
+
+}
